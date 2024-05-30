@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Jersey+10:regular);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jersey 10", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e1f7f5;
+}

@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 813px;
+  height: 435px;
+  background-color: #1e0342;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #f4f4f4;
+  animation: rubberBand;
+  animation-duration: 1s;
+}

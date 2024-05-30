@@ -1,0 +1,13 @@
+.game-over-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.last-title {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: rgb(27, 3, 69);
+}
