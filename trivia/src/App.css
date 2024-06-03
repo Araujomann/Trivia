@@ -13,5 +13,5 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #e1f7f5;
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
 }

@@ -6,13 +6,13 @@
   margin: 0 auto;
   width: 813px;
   height: 435px;
-  background-color: #1e0342;
+  background-color: #002e74;
   border-radius: 15px;
   gap: 20px;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #f4f4f4;
   animation: rubberBand;
   animation-duration: 1s;
