@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from "react";
 import "./questionCard.css";
-import { Button } from "../button/Button";
 
 export const QuestionCard = ({
     id,
@@ -12,9 +11,17 @@ export const QuestionCard = ({
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [isCorrect, setIsCorrect] = useState(null);
 
+    const shuffleAnswers = (array) => {
+        for( let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
     const cachedAllAnswers = useMemo(() => {
         const answers = [correctAnswer, ...incorrectAnswer];
-        answers.sort(() => Math.random() - 0.5);
+        shuffleAnswers(answers);
         return answers;
     }, [correctAnswer, incorrectAnswer]);
 
@@ -32,7 +39,7 @@ export const QuestionCard = ({
     return (
         <div className="questionCard" key={id}>
             <h2>{question}</h2>
-            <ul>cd
+            <ul>
                 {cachedAllAnswers.map((answer, index) => {
                     return (
                         <li key={index}>

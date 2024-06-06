@@ -24,6 +24,7 @@ export const Match = () => {
             setCorrectAnswers(correctAnswers + 1);
             console.log('total de respostas corretas:', correctAnswers + 1);
         }
+        
         if (currentQuestionIndex + 1 < questions.length) {
             setCurrentQuestionIndex(currentQuestionIndex + 1);
         } else {
