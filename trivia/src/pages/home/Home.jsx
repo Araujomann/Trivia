@@ -12,11 +12,7 @@ export const Home = () => {
       <p className="description">{description}</p>
       <div className="buttons-container">
         <Link to={"/login"}>
-          <Button
-            className="start"
-            text="Iniciar"
-            onClick={() => console.log("Start")}
-          />
+          <Button className="start" text="Iniciar" />
         </Link>
       </div>
     </Card>

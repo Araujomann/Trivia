@@ -1,56 +1,56 @@
 .questionCard {
-    background: radial-gradient(
-        circle at top left,
-        rgb(2, 80, 197) 0%,
-        rgb(2, 80, 197) 3%,
-        rgb(2, 74, 184) 3%,
-        rgb(2, 74, 184) 20%,
-        rgb(2, 68, 171) 20%,
-        rgb(2, 68, 171) 65%,
-        rgb(2, 61, 158) 65%,
-        rgb(2, 61, 158) 72%,
-        rgb(2, 55, 145) 72%,
-        rgb(2, 55, 145) 79%,
-        rgb(2, 49, 132) 79%,
-        rgb(2, 49, 132) 82%,
-        rgb(2, 42, 119) 82%,
-        rgb(2, 42, 119) 90%,
-        rgb(2, 36, 106) 90%,
-        rgb(2, 36, 106) 100%
-    );
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    height: auto;
-    min-height: 600px;
-    border-radius: 20px;
-    padding: 1rem;
-    margin: 1rem;
+  background: radial-gradient(
+    circle at top left,
+    rgb(2, 80, 197) 0%,
+    rgb(2, 80, 197) 3%,
+    rgb(2, 74, 184) 3%,
+    rgb(2, 74, 184) 20%,
+    rgb(2, 68, 171) 20%,
+    rgb(2, 68, 171) 65%,
+    rgb(2, 61, 158) 65%,
+    rgb(2, 61, 158) 72%,
+    rgb(2, 55, 145) 72%,
+    rgb(2, 55, 145) 79%,
+    rgb(2, 49, 132) 79%,
+    rgb(2, 49, 132) 82%,
+    rgb(2, 42, 119) 82%,
+    rgb(2, 42, 119) 90%,
+    rgb(2, 36, 106) 90%,
+    rgb(2, 36, 106) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: auto;
+  min-height: 600px;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 button {
-    color: aliceblue;
-    background-color: rgb(2, 36, 106);
-    border: none;
-    border-radius: 25px;
-    margin: 0.5rem;
-    font-size: 1.8rem;
-    padding: 0.5rem 2rem;
+  color: aliceblue;
+  background-color: rgb(2, 36, 106);
+  border: none;
+  border-radius: 25px;
+  margin: 0.5rem;
+  font-size: 1.8rem;
+  padding: 0.5rem 2rem;
 }
 
 button:hover {
-    background-color: #d43f8d;
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+  background-color: #d43f8d;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
 }
 
 button.correct {
-    background-color: rgb(47, 137, 47);
+  background-color: rgb(47, 137, 47);
 }
 
 button.incorrect {
-    background-color: rgb(151, 0, 0);
+  background-color: rgb(151, 0, 0);
 }

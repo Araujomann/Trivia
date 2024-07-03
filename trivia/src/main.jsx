@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Login } from "./pages/login/Login.jsx";
 import { Match } from "./pages/match/Match.jsx";
 import { Home } from "./pages/home/Home.jsx";
+import { Category } from "./pages/category/Category.jsx";
 import "animate.css/animate.min.css";
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/match",
         element: <Match />,
+      },
+      {
+        path: "/category",
+        element: <Category />,
       },
     ],
   },
