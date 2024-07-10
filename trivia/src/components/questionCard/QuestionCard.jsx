@@ -46,7 +46,7 @@ export const QuestionCard = ({
               <button
                 name="answer"
                 onClick={() => handleAnswer(answer)}
-                className= {`answerButton ${
+                className={`answerButton ${
                   selectedAnswer === answer
                     ? isCorrect
                       ? "correct"
