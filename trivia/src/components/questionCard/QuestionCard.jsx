@@ -46,13 +46,13 @@ export const QuestionCard = ({
               <button
                 name="answer"
                 onClick={() => handleAnswer(answer)}
-                className={
+                className= {`answerButton ${
                   selectedAnswer === answer
                     ? isCorrect
                       ? "correct"
                       : "incorrect"
                     : ""
-                }
+                }`}
               >
                 {answer}
               </button>
