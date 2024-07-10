@@ -87,9 +87,9 @@ export const Match = () => {
           <p className="final-paragraph">
             Você acertou {correctAnswers} de {questions.length} perguntas.
           </p>
-          <button onClick={handlePlayAgain}>Jogar Novamente</button>
-          <button onClick={handleCategory}>Selecionar Categoria</button>
-          <button onClick={() => navigate("/")}>Sair</button>
+          <button className="last-buttons" onClick={handlePlayAgain}>Jogar Novamente</button>
+          <button className="last-buttons" onClick={handleCategory}>Selecionar Categoria</button>
+          <button className="last-buttons" onClick={() => navigate("/")}>Sair</button>
         </div>
       </div>
     );

@@ -1,0 +1,29 @@
+.category-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(2, 36, 106);
+    height: 1.6em;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: clamp(0.6em, 1.2em, 2em);
+    padding: 0.5rem 2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .category-button {
+        border-radius: 50px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 2em;
+        margin: 4px 2px;
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}

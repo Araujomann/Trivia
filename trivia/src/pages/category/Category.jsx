@@ -44,7 +44,7 @@ export const Category = () => {
   };
 
   return (
-    <>
+    <div className="general-container">
       <h1 className="title">Escolha uma categoria</h1>
       <div className="categories-container">
         {categories.map((category) => (
@@ -57,6 +57,6 @@ export const Category = () => {
           </CategoryButton>
         ))}
       </div>
-    </>
+    </div>
   );
 };
